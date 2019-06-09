@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread('/home/satya/Downloads/bookpage.jpg')
+img = cv2.imread('path to a bookpage')
 
 retval , threshold = cv2.threshold(img, 12 ,255 , cv2.THRESH_BINARY)
 
